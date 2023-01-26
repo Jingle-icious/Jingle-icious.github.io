@@ -11,8 +11,8 @@ This is my repo for ATLS2200.
 
 ## In-Class Assignments
 
-- ICA1
-- ICA2
+- [ICA1](/ica/EU_ICA1.pdf)
+- [ICA2](/ica/EU_ICA2.pdf)
 - ICA3
 - ICA4
 - ICA5
