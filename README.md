@@ -14,7 +14,7 @@ This is my repo for ATLS2200.
 - [ICA1](/ica/EU_ICA1.pdf)
 - [ICA2](/ica/EU_ICA2.pdf)
 - [ICA3](/ica/ica3a.html)
-- ICA4
+- [ICA4](https://jingle-icious.github.io/ica/ica4.html)
 - ICA5
 - ICA6
 - ICA7
