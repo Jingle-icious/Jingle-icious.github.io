@@ -5,9 +5,16 @@
             margin: 0 30%;
             font-family: 'Times New Roman', Times, serif;
         }
+
+        table, th, td {
+            border:5px solid rgb(234, 94, 94);
+            border-style: solid;
+            padding: 3px;
+            text-align: center;
+        }
     </style>
     <title>
-        Week 3 Assignment
+        Page 5
     </title>
 </head>
 <body>
@@ -23,3 +30,33 @@
     <span> | </span>
     <a href="/html-midterm/page5.html">Page 5</a>
 </div>
+
+<table style="margin-left: auto; margin-right: auto;">
+    <tbody>
+        <tr>
+            <td>
+                <p style="text-align:center"> <strong> Page Number </strong> </p>
+            </td>
+            <td>
+                <p style="text-align:center"> <strong> Error</strong></p>
+            </td>
+            <td> 
+                <p style="text-align:center">  <strong> Change</strong> </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td> Start tag seen without seeing a doctype first. </td>
+            <td> Added start tag at top of the HTML document.  </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td> Element <strong>e</strong> not allowed as child element of <strong>em</strong> in this context. </td>
+            <td> Fixed where text was supposed to be italics from <strong>em</strong> tag.</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td> End tag <strong>p</strong> seen, but there were open elements. </td>
+            <td> Fixed where text was supposed to be italics from <strong>em</strong> tag.</td>
+        </tr>
