@@ -32,7 +32,7 @@ This is my repo for ATLS2200.
 - [WA1] (https://jingle-icious.github.io/wa/wa1.html)
 - [WA2] (https://jingle-icious.github.io/wa/wa2.html)
 - [WA3] (https://jingle-icious.github.io/wa/wa3.html)
-- WA4
+- [WA4] (https://jingle-icious.github.io/wa/wa4.html)
 - WA5
 - WA6
 - WA7
