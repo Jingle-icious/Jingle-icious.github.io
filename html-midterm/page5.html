@@ -31,32 +31,82 @@
     <a href="/html-midterm/page5.html">Page 5</a>
 </div>
 
-<table style="margin-left: auto; margin-right: auto;">
-    <tbody>
-        <tr>
-            <td>
-                <p style="text-align:center"> <strong> Page Number </strong> </p>
-            </td>
-            <td>
-                <p style="text-align:center"> <strong> Error</strong></p>
-            </td>
-            <td> 
-                <p style="text-align:center">  <strong> Change</strong> </p>
-            </td>
-        </tr>
+<h1>CHANGELOG</h1>
 
-        <tr>
-            <td>1</td>
-            <td> Start tag seen without seeing a doctype first. </td>
-            <td> Added start tag at top of the HTML document.  </td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td> Element <strong>e</strong> not allowed as child element of <strong>em</strong> in this context. </td>
-            <td> Fixed where text was supposed to be italics from <strong>em</strong> tag.</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td> End tag <strong>p</strong> seen, but there were open elements. </td>
-            <td> Fixed where text was supposed to be italics from <strong>em</strong> tag.</td>
-        </tr>
+    <table style="margin-left: auto; margin-right: auto;">
+        <tbody>
+            <tr>
+                <td>
+                    <p style="text-align:center"> <strong> Page Number </strong> </p>
+                </td>
+                <td>
+                    <p style="text-align:center"> <strong> Error</strong></p>
+                </td>
+                <td> 
+                    <p style="text-align:center">  <strong> Change</strong> </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td> Start tag seen without seeing a doctype first. (Line 1) </td>
+                <td> Added start tag at top of the HTML document.  </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td> Element <strong>e</strong> not allowed as child element of <strong>em</strong> in this context. (Line 79)</td>
+                <td> Fixed where text was supposed to be italics from <strong>em</strong> tag.</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td> All other errors were fixed by fixing first two. </td>
+                <td> <strong>Document checking completed. No errors or warnings to show.</strong></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Saw &lt;&gt;. Probable Causes: Unescaped &lt; or mistyped start tag. (Line 26) </td>
+                <td> Finished tag, therefore solving the problem of unescaped &lt;. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> End tag <strong>p</strong> seen, but there were open elements. (Line 30)</td>
+                <td> Solved by completing unfinished tag of &lt;b&gt; </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Unclosed element &lt;b&gt; (Line 26) </td>
+                <td> Closed element.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Element <strong>p</strong> not allowed as child of element <strong>b</strong> in this context. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Element <strong>h3</strong> not allowed as child of element <strong>b</strong> in this context. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Element <strong>hr</strong> not allowed as child of element <strong>b</strong> in this context. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Element <strong>h2</strong> not allowed as child of element <strong>b</strong> in this context. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Element <strong>h6</strong> not allowed as child of element <strong>b</strong> in this context. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> End tag for <strong>body</strong> seen, but there were unclosed elements. </td>
+                <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
+            </tr>
+        </tbody>
+    </table>
+    
