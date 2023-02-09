@@ -5,7 +5,7 @@ This is my repo for ATLS2200.
 
 ## Projects
 
-- HTML
+- [HTML] (https://jingle-icious.github.io/html-midterm/page5.html)
 - CSS
 - JS
 
