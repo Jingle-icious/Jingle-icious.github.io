@@ -112,6 +112,23 @@
                 <td> End tag for <strong>body</strong> seen, but there were unclosed elements. </td>
                 <td> Closed element of <strong>b</strong>, therefore removing issue. </td>
             </tr>
+            <tr>
+                <td>3</td>
+                <td> Element <b>l</b> not allowed as child of element <b>ul</b> in this context.</td>
+                <td> Added <b>i</b> to element of  &lt;l&gt; to create element of  &lt;li&gt; and remove error.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Saw &lt;&gt;. Probable Causes: Unescaped &lt; or mistyped start tag. </td>
+                <td> Added <b>td</b> to end tag, therefore solving the problem of unescaped &lt;. </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> <b> &lt;td&gt;</b> start tag in table body.</td>
+                <td>Moved entirety of &lt;td&gt;Axelia&lt;/td&gt; to be within &lt;tr&gt; element, fixing nesting issue. </td>
+            </tr>
+            
+
         </tbody>
     </table>
     
