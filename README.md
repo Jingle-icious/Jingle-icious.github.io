@@ -5,7 +5,7 @@ This is my repo for ATLS2200.
 
 ## Projects
 
-- [HTML] (https://jingle-icious.github.io/html-midterm/page5.html)
+- [HTML](https://jingle-icious.github.io/html-midterm/page5.html)
 - CSS
 - JS
 
@@ -29,10 +29,10 @@ This is my repo for ATLS2200.
 
 ## Weekly Assignments
 
-- [WA1] (https://jingle-icious.github.io/wa/wa1.html)
-- [WA2] (https://jingle-icious.github.io/wa/wa2.html)
-- [WA3] (https://jingle-icious.github.io/wa/wa3.html)
-- [WA4] (https://jingle-icious.github.io/wa/wa4.html)
+- [WA1](https://jingle-icious.github.io/wa/wa1.html)
+- [WA2](https://jingle-icious.github.io/wa/wa2.html)
+- [WA3](https://jingle-icious.github.io/wa/wa3.html)
+- [WA4](https://jingle-icious.github.io/wa/wa4.html)
 - WA5
 - WA6
 - WA7
