@@ -22,11 +22,24 @@
           <h6>Me while doing this project:</h6>
         </div>
     </div>
+  
+    <div id="overlay_CR" onclick="off()">
+        <div id="text">I took this picture because I was very bored.</div>
+    </div>
 
     <footer>
-        <address> Evelyn Upchurch &#169; All Rights Reserved. </address>
+        <address onclick="on()"> Evelyn Upchurch &#169; All Rights Reserved. </address>
     </footer>
-  
+
+    <script>
+        function on() {
+          document.getElementById("overlay_CR").style.display = "block";
+        }
+        
+        function off() {
+          document.getElementById("overlay_CR").style.display = "none";
+        }
+    </script>
     
 </body>
 </html>

@@ -103,16 +103,45 @@ p:first-child {
     text-decoration: underline rgb(255, 255, 255);
   }
   
-/* Footer */
+
+    /* Clicable Overlay */
+
+    #overlay_CR {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(99, 113, 120, 0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+    
+    #text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+    }
+
+    /* Footer */
     
     footer address {
-    float: right;
-    width: 17.3%;
-    position: absolute;
-    font-size: 0.8em;
-    font-style: normal;
-    font-variant: small-caps;
-    text-align: right;
-    margin-top: 790px;
-    background-color: rgba(143,190,246,255);
-    }
+      float: right;
+      width: 17.3%;
+      position: absolute;
+      font-size: 0.8em;
+      font-style: normal;
+      font-variant: small-caps;
+      text-align: center;
+      margin-top: 790px;
+      background-color: rgba(143,190,246,255);
+      cursor: pointer;
+      }
