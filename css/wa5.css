@@ -88,16 +88,31 @@ p:first-child {
 
 .me_fr img {
     width: 15%;
-     position: relative;
+    position: absolute;
+    left: 20px;
+    top: 111px;
   }
 
 .me_fr .overlay2 {
     position: absolute;
     top: 80px;
-    left: 77px;
+    left: 20px;
     font-weight: bold;
     text-align: left;
     font-size: 30px;
-    text-decoration: underline dashed rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 255, 255);
   }
   
+/* Footer */
+    
+    footer address {
+    float: right;
+    width: 17.3%;
+    position: absolute;
+    font-size: 0.8em;
+    font-style: normal;
+    font-variant: small-caps;
+    text-align: right;
+    margin-top: 790px;
+    background-color: rgba(143,190,246,255);
+    }
