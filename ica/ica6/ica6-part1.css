@@ -9,25 +9,48 @@ body{
     border-width: 3px;
     border-radius:10px;
     background-color: mediumseagreen;
-    position:relative;
+    position:absolute;
+}
+
+#text1 {
+    position: relative;
+    top: 100px;
+    left: 100%;
 }
 
 #box2{
     width: 73vw;
     height: 33vh;
-
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     border-style: solid;
     border-radius:3px;
     border-color:purple;
-    position:relative;
-    left: 40vw;
     background-color: mediumvioletred;
 }
 
-#box3{
-position: sticky;
-width: 73vw;
-height: 175vh;
-border-radius: 10px;
-background-color: orangered;
+#text2 {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
 }
+
+#box3{
+    position: sticky center;
+    margin: auto;
+    top: 0px;
+    text-align: center;
+    width: 73vw;
+    height: 175vh;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+#text3 {
+    position: sticky;
+    top: 0px;
+    font-size: 50px;
+}
+

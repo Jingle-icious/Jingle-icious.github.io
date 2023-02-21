@@ -11,44 +11,73 @@ body{
     padding:5vw;
 }
 
+#flex-child1{ 
+    order: 3;
+}
+
+#flex-child2{
+    order: 4;
+}
+
+#flex-child3 {
+    order: 2;
+}
+
+#flex-child4 {
+    order: 1;
+}
 
 #grid-parent{
     display:grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #grid-parent h1{
+    text-align: center;
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
     
 }
 #no0{
-
+    order: 10;
+    grid-column-start: 2;
 }
+
 #no1{
-
+    order: 1;
 }
+
 #no2{
-
+    order: 2;
 }
+
 #no3{
-
+    order: 3;
 }
+
 #no4{
-
+    order: 4;
 }
+
 #no5{
-
+    order: 5;
 }
+
 #no6{
-
+    order: 6;
 }
+
 #no7{
-
+    order: 7;
 }
+
 #no8{
-
+    order: 8;
 }
+
 #no9{
-
+    order: 9;
 }
+
+
