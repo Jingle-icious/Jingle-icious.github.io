@@ -32,17 +32,17 @@ nav {
     top: 0px;
     left: 0px;
     overflow: hidden;
-    list-style-type: none;
 
 }
   
 nav ul {
     margin: 0;
     padding: 0;
-    overflow: none;
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
-
   
 nav a {
     color: #fff;
@@ -50,14 +50,9 @@ nav a {
     padding: .5em 1em;
 }
 
-nav li {
-    float: left;
-}
-
 li a:hover {
     background-color: #d66565;
-  }
-  
+} 
   
 .photos {
     list-style: none;
