@@ -28,6 +28,7 @@ nav {
     padding: .5em;
     overflow: hidden;
     list-style-type: none;
+    position: sticky;
 
 }
   
