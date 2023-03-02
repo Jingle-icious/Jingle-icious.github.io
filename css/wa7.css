@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 233, 240);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: #3c4070;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+#red-ball {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #9fc7c7;
+    border: solid #3c4070;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+   
+    /* Animation to spin and move the sphere */
+    -webkit-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+    -moz-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+    -ms-animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+    animation: spin 1000ms linear infinite, moveLeftToRight 5s linear infinite;
+    
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Spinning the sphere using key frames */
+  @-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+  }
+  @-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+  }
+  
+  /* Move sphere from left to right */
+  @-moz-keyframes moveLeftToRight {
+    0%   { left: -100px; }
+    100% { left: 100%; }
+  }
+  @-ms-keyframes moveLeftToRight {
+    0%   { left: -100px; }
+    100% { left: 100%; }
+  }
+  @keyframes moveLeftToRight {
+    0%   { left: -100px; }
+    100% { left: 100%; }
+  }
+  @-webkit-keyframes moveLeftToRight {
+    0%   { left: -100px; }
+    100% { left: 100%; }
+  }
+
+  /*Tooltip Hover*/
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:  #3c4070;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: -5px;
+    right: 105%;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  
