@@ -21,24 +21,87 @@ html, body {
       }
   }
 
-  nav{
-    height: 50vh;
+nav{
+    float: right;
+    position: sticky;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     height:20px;
-    background-color: white;
-    opacity: 50%;
-}
-nav a{
-    width:10vw;
-    text-align: center;
-    text-decoration: none;
-    color:black;
     opacity: 100%;
+    top: 0px;
 }
 
-nav a:hover {
-  background-color: #71ffcb;
-  border: 2px solid white;
-} 
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  position:absolute;
+  z-index:1;
+  
+}
+.main li{
+  list-style:none;
+  background: #23d5ab;
+  color: white;
+  width:100px;
+  padding: 0 5px;
+  border: 1px solid black;
+  height: 30px;
+  line-height: 30px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  
+}
+.main li:nth-child(odd){
+    transform-origin: top;
+    -webkit-transform-origin: top;
+    transform: perspective(350px) rotateX(-90deg);
+    -webkit-transform: perspective(350px) rotateX(-90deg);
+  }
+  
+  .main li:nth-child(even){
+     margin-top:-65px;
+     transform-origin: bottom;
+    -webkit-transform-origin: bottom;
+    transform: perspective(350px) rotateX(90deg);
+    -webkit-transform: perspective(350px) rotateX(90deg);
+  }
+  
+  .hov:hover li:nth-child(odd){
+    transform-origin: top;
+    -webkit-transform-origin: top;
+    transform: perspective(350px) rotateX(0deg);
+    -webkit-transform: perspective(350px) rotateX(0deg);
+    margin-top:0;
+  }
+  
+  .hov:hover li:nth-child(even){
+    transform-origin: bottom;
+    -webkit-transform-origin: bottom;
+    transform:perspective(350px) rotateX(0deg);
+    -webkit-transform: perspective(350px) rotateX(0deg);
+     margin-top:0;
+  }
+  
+  .main li:first-child{
+    margin-top:0;
+  }
+  
+  .hov{
+    position:relative;
+    height: 40px;
+    width:112px;
+    background: black;
+    color: white;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-weight:bold;
+    text-align: center;
+    line-height: 40px;
+    list-style:none;
+    z-index:2;
+    
+  }
+
