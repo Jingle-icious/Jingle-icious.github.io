@@ -6,7 +6,7 @@ This is my repo for ATLS2200.
 ## Projects
 
 - [HTML](https://jingle-icious.github.io/html-midterm/page5.html)
-- CSS
+- [CSS](https://jingle-icious.github.io/index.html)
 - JS
 
 ## In-Class Assignments
