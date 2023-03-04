@@ -26,14 +26,14 @@
 /* Dropdown Navbar */
 
 nav{
-    float: right;
-    position: sticky;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 100%;
-    top: 0px;
-    padding: 15px;
+  float: right;
+  position: sticky;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 100%;
+  top: 0px;
+  padding: 15px;
 
 }
 
@@ -128,3 +128,15 @@ section {
   background-color: rgba(255, 255, 255, 0.2);
   color:rgb(30, 40, 40);
   }
+
+  aside {
+    text-align: center;
+    width: 100%;
+    float: center;
+    border: 3px solid black;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    padding: 10px;  
+    background-color:rgba(35,166,213, 0.3);
+    
+    }
