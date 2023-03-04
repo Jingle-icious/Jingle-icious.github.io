@@ -113,3 +113,17 @@ ul,li{
     background-color: #b768d7;
   }
 
+/* Main Body */
+
+h1, p{
+  text-align: center;
+  float: center;
+  color:rgb(30, 40, 40);
+}
+
+section {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color:rgb(30, 40, 40);
+  }
