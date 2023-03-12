@@ -192,7 +192,7 @@
 
    /* Main Body */
    
-  h1, p{
+   h1, p{
     text-align: center;
     float: center;
     color:rgb(30, 40, 40);
@@ -257,4 +257,5 @@
   li a:hover{
     background-color: #b768d7;
   }
+
 }
