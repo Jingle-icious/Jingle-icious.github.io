@@ -1,0 +1,47 @@
+body {
+    background-color: lavender;
+}
+
+#button {
+    border: 5px solid rgb(108, 0, 108);
+    border-radius: 20px;
+    background-color: rgb(248, 122, 248);
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+    font-size: 50px;
+    float: center;
+}
+
+button {
+    border: 5px solid navy;
+    border-radius: 30px;
+    background-color: lightskyblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.left {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.right {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
