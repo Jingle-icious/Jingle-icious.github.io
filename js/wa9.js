@@ -8,10 +8,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
-const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
-const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
-const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+const storyText = 'It was 112 fahrenheit outside, so insertx: decided to go for a walk. When he got to inserty:, he stood still, thinking for a moment, then insertz:. Jingle saw the whole thing, but honestly couldn`t care less — :insertx: was a human, Jingle was a cat, and she only cared about sleeping.';
+const insertX = ['Gabe', 'Gavin', 'Tyler'];
+const insertY = ['his high school', 'his house', 'Evie`s dorm'];
+const insertZ = ['decided to chug 80 mg of caffeine', 'started explaining the intricacies of Genshin Impact ', 'realized he had an essay due that he had`t started'];
 
 randomize.addEventListener ('click', result);
 
@@ -28,7 +28,7 @@ function result() {
 
     if (customName.value !== '') {
         const name = customName.value;
-        newStory = newStory.replaceAll('Bob', name);
+        newStory = newStory.replaceAll('Jingle', name);
     }
 
     if (document.getElementById("uk").checked) {
