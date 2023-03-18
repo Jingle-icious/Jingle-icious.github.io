@@ -11,7 +11,7 @@ function randomValueFromArray(array){
 const storyText = 'It was 112 fahrenheit outside, so insertx: decided to go for a walk. When he got to inserty:, he stood still, thinking for a moment, then insertz:. Jingle saw the whole thing, but honestly couldn`t care less — insertx: was a human, Jingle was a cat, and she only cared about sleeping.';
 const insertX = ['Gabe', 'Gavin', 'Tyler'];
 const insertY = ['his high school', 'his house', 'Evie`s dorm'];
-const insertZ = ['decided to chug 80 mg of caffeine', 'started explaining the intricacies of Genshin Impact ', 'realized he had an essay due that he had`t started'];
+const insertZ = ['decided to chug 80 mg of caffeine', 'started explaining the intricacies of Genshin Impact ', 'realized he had an essay due that he hadn`t started'];
 
 randomize.addEventListener ('click', result);
 
