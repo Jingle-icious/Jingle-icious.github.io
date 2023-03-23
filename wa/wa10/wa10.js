@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = [`Connor_Me_Prom.jpg`, `Seneca_and_Me_Pumpkin.jpg`, `Copper_Opening.jpg`, `Gabe_Gavin_Tyler.jpg`, `Brady_Shrek.jpg` , `Alex_Me_Ski.jpg`, `Erick_Jenga.jpg` , `Gabe_Me_Ski.jpg`, `Ethan_Gabe_Brayson.jpg`, `Jordan_Grad.jpg`];
+const images = [`Connor_Me_Prom.jpg`, `Seneca_and_Me_Pumpkin.jpg`, `Copper_Opening.jpg`, `Gabe_Gavin_Tyler.jpg`, `Brady_Shrek.jpg` , `Alex_Me_Ski.jpg`, `Erick_Jenga.jpg` , `Gabe_Me_Ski.jpg`, `Ethan_Gabe_Brayson.jpg`, `Shay_and_I.jpg`];
 const alts = {
   'Connor_Me_Prom.jpg' : 'Connor and I Messing Around for Prom Photos',
   'Seneca_and_Me_Pumpkin.jpg' : 'Seneca and I at the Pumpkin Patch',
@@ -17,7 +17,7 @@ const alts = {
   'Erick_Jenga.jpg' : 'Erick Proud of His Jenga Stack',
   'Gabe_Me_Ski.jpg' : 'Gabe and I at Winter Park',
   'Ethan_Gabe_Brayson.jpg' : 'Ethan, Gabe, and Brayson at 8th Grade Graduation', 
-  'Jordan_Grad.jpg' : 'Jordan and I at her Graduation 2021',
+  'Shay_and_I.jpg' : 'Shaylie and I getting Coffee',
 }
 
 /* Looping through images */
