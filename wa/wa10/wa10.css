@@ -1,34 +1,53 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 body {
-  width: 640px;
+  width: 1080px;
   margin: 0 auto;
+  background: linear-gradient(-45deg, #ebbcfd, #b768d7, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .full-img {
   position: relative;
   display: block;
-  width: 950px;
-  height: 1275px;
+  width: 1080px;
+  height: 1080px;
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 950px;
-  height: 1275px;
+  width: 1080px;
+  height: 1080px;
   background-color: rgba(0,0,0,0);
 }
 
 button {
   border: 0;
-  background: rgba(150,150,150,0.6);
+  background: rgba(225, 244, 253, 0.6);
   text-shadow: 1px 1px 1px white;
-  border: 1px solid #999;
+  border: 1px solid #000000;
+  border-radius: 15px;
   position: absolute;
   cursor: pointer;
   top: 2px;

@@ -6,13 +6,18 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = [`Connor_and_I_Prom.jpg`, `Seneca_and_Me_Pumpkin`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
+const images = [`Connor_Me_Prom.jpg`, `Seneca_and_Me_Pumpkin.jpg`, `Copper_Opening.jpg`, `Gabe_Gavin_Tyler.jpg`, `Brady_Shrek.jpg` , `Alex_Me_Ski.jpg`, `Erick_Jenga.jpg` , `Gabe_Me_Ski.jpg`, `Ethan_Gabe_Brayson.jpg`, `Jordan_Grad.jpg`];
 const alts = {
-  'Connor_and_I_Prom.jpg' : 'Connor and I Messing Around for Prom Photos',
-  'Seneca_and_Me_Pumpkin' : 'Seneca and I at the Pumpkin Patch',
-  'pic3.jpg' : 'Purple and white pansies',
-  'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
-  'pic5.jpg' : 'Large moth on a leaf'
+  'Connor_Me_Prom.jpg' : 'Connor and I Messing Around for Prom Photos',
+  'Seneca_and_Me_Pumpkin.jpg' : 'Seneca and I at the Pumpkin Patch',
+  'Copper_Opening.jpg' : 'Aidan, Gabe and I at Copper Mountain Opening Day',
+  'Gabe_Gavin_Tyler.jpg' : 'Gavin, Tyler, and Gabe Being Weird',
+  'Brady_Shrek.jpg' : 'Brady With a Shrek Filter',
+  'Alex_Me_Ski.jpg' : 'Alex and I at Snowbird', 
+  'Erick_Jenga.jpg' : 'Erick Proud of His Jenga Stack',
+  'Gabe_Me_Ski.jpg' : 'Gabe and I at Winter Park',
+  'Ethan_Gabe_Brayson.jpg' : 'Ethan, Gabe, and Brayson at 8th Grade Graduation', 
+  'Jordan_Grad.jpg' : 'Jordan and I at her Graduation 2021',
 }
 
 /* Looping through images */
