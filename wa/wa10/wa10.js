@@ -6,10 +6,10 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const images = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
+const images = [`Connor_and_I_Prom.jpg`, `Seneca_and_Me_Pumpkin`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 const alts = {
-  'pic1.jpg' : 'Closeup of a human eye',
-  'pic2.jpg' : 'Rock that looks like a wave',
+  'Connor_and_I_Prom.jpg' : 'Connor and I Messing Around for Prom Photos',
+  'Seneca_and_Me_Pumpkin' : 'Seneca and I at the Pumpkin Patch',
   'pic3.jpg' : 'Purple and white pansies',
   'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
   'pic5.jpg' : 'Large moth on a leaf'

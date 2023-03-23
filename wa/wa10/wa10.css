@@ -11,16 +11,16 @@ body {
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
-  height: 480px;
+  width: 950px;
+  height: 1275px;
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
-  height: 480px;
+  width: 950px;
+  height: 1275px;
   background-color: rgba(0,0,0,0);
 }
 
