@@ -18,7 +18,7 @@ This is my repo for ATLS2200.
 - [ICA5](https://jingle-icious.github.io/ica//ica5/ica5.html)
 - [ICA6](https://jingle-icious.github.io/ica//ica6/ica6-part1.html)
 - [ICA7](https://jingle-icious.github.io/ica/ica7.html)
-- ICA8
+- ~~ICA8~~
 - [ICA9](https://jingle-icious.github.io/ica/ica9.html)
 - [ICA10](https://jingle-icious.github.io/ica/ica10.html)
 - ICA11
@@ -36,7 +36,7 @@ This is my repo for ATLS2200.
 - [WA5](https://jingle-icious.github.io/wa/wa5.html)
 - [WA6](https://jingle-icious.github.io/wa/wa6/wa6.html)
 - [WA7](https://jingle-icious.github.io/wa/wa7.html)
-- WA8
+- ~~WA8~~
 - [WA9](https://jingle-icious.github.io/wa/wa9.html)
 - [WA10](https://jingle-icious.github.io/wa/wa10/wa10.html)
 - WA11
