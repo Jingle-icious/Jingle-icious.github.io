@@ -21,7 +21,7 @@ This is my repo for ATLS2200.
 - ~~ICA8~~
 - [ICA9](https://jingle-icious.github.io/ica/ica9.html)
 - [ICA10](https://jingle-icious.github.io/ica/ica10.html)
-- ICA11
+- [ICA11](https://jingle-icious.github.io/ica/ica11.html)
 - ICA12
 - ICA13
 - ICA14
