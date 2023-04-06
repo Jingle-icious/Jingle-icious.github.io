@@ -1,0 +1,134 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #ebbcfd, #b768d7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+.app{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: rgb(230, 225, 225);
+    border-radius: 50px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+header{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(136, 59, 155);
+}
+
+.tweet-button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(167, 255, 255); 
+    display: block;
+    color: black;
+    border-radius: 4px;
+    border: 1px black solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.text{
+    padding: 20px 50px;
+    min-height: 200px;
+}
+
+.quote-text{
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.quote-author{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(136, 59, 155);
+}
+
+.controls{
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.button{
+    display: block;
+    color: black;
+    border-radius: 4px;
+    border: 1px black solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.new-quote{
+    background-color:rgb(136, 59, 155);
+    margin-bottom: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.new-quote:hover{
+    background-color:rgb(239, 179, 254);
+    color:white;
+}
+
+.tweet-button:hover{
+    background-color:rgb(108, 218, 255);
+    color:white;
+}
+
+aside {
+    height: 200px;
+    width: 800px;
+    top: 30%;
+    right: 26%;
+    text-align: center;
+    color: ghostwhite;
+    font-size: larger;
+    position: relative;
+    margin-top: 2em;
+    float: right;
+    border: 3px solid black;
+    background-color: rgb(136, 59, 155);
+  
+    }
