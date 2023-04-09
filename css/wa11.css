@@ -120,12 +120,12 @@ header{
 aside {
     height: 200px;
     width: 800px;
-    top: 30%;
-    right: 26%;
+    top: 50%;
+    right: 60%;
     text-align: center;
     color: ghostwhite;
     font-size: larger;
-    position: relative;
+    position: sticky;
     margin-top: 2em;
     float: right;
     border: 3px solid black;
