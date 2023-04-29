@@ -7,7 +7,7 @@ This is my repo for ATLS2200.
 
 - [HTML](https://jingle-icious.github.io/html-midterm/page5.html)
 - [CSS](https://jingle-icious.github.io/index.html)
-- JS
+- [JS](https://evelynupchurch.me/JS-Final/game.html)
 
 ## In-Class Assignments
 
@@ -23,7 +23,7 @@ This is my repo for ATLS2200.
 - [ICA10](https://jingle-icious.github.io/ica/ica10.html)
 - [ICA11](https://jingle-icious.github.io/ica/ica11.html)
 - [ICA12](https://jingle-icious.github.io/ica/ica12.html)
-- [ICA13] (N/A)
+- ICA13 (N/A)
 - [ICA14](https://api.mapbox.com/styles/v1/jingleicious/clgwgi0s1003r01pwc5jgbany.html?title=view&access_token=pk.eyJ1IjoiamluZ2xlaWNpb3VzIiwiYSI6ImNsZ3ZwOGNiczA0NGszYnFzZzY0cnFlangifQ.BnRK-gZD705zQiCr5yNajg&zoomwheel=true&fresh=true#2/37.75/-92.25)
 - ICA15
 
