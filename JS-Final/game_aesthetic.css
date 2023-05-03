@@ -9,6 +9,7 @@
     background: #000000;
     display: block;
     margin: 0 auto;
+    border: 7px solid white;
   }
 
   /*Background*/
@@ -51,7 +52,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #0095DD;
     font-family: "Comic Sans MS", "Comic Sans"
   }
   
@@ -65,5 +66,5 @@
   }
   
   li a:hover {
-    background-color: #b4b4b4;
+    background-color: #fd9e9e;
   }
